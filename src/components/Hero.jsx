@@ -2,11 +2,11 @@ import React from 'react'
 import HeroImg from '../assets/hero.svg'
 const Hero = () => {
   return (
-    <section>
+    <section className='w-11/12 max-w-screen-2xl mx-auto py-20'>
       <div className="container px-10">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center">
           <div>
-            <p className='text-6xl'>
+            <p className="text-6xl">
               Great <span className="text-gradient">Product</span> is{' '}
               <span className=" font-bold">built by great</span>{' '}
               <span className="teams-gradient">teams</span>

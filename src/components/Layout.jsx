@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../assets/logo.svg'
 import Hero from './Hero'
+import Services from './Services'
 const Layout = () => {
   return (
     <>
@@ -31,6 +32,7 @@ const Layout = () => {
 
       <main>
         <Hero/>
+        <Services/>
       </main>
     </>
   )
