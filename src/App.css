@@ -1,0 +1,30 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+/*NAVBAR SECTION*/
+.btn-gradient {
+  background: linear-gradient(45deg, #6675f7, #57007b);
+  color: white; /* Ensures text color is readable */
+}
+
+/*HERO SECTION*/
+.text-gradient {
+  background: linear-gradient(45deg, #de4396, #0d1c9f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.teams-gradient {
+  background: linear-gradient(45deg, #f7666f, #406aff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.started-button{
+  background-color: #3d63ea;
+}
