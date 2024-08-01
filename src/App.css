@@ -39,3 +39,9 @@
   border-image: linear-gradient(45deg, #f76680, #57007b);
   border-image-slice: 1;
 }
+
+/*CUSTOMER DATA SECTION*/
+.people-list{
+  align-items: center;
+
+}

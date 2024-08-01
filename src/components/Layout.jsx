@@ -2,8 +2,10 @@ import React from 'react'
 import Logo from '../assets/logo.svg'
 import Companies from './Companies'
 import CompaniesList from './CompaniesList'
+import Customers from './Customers'
 import Hero from './Hero'
 import Services from './Services'
+
 const Layout = () => {
   return (
     <>
@@ -37,6 +39,7 @@ const Layout = () => {
         <Services/>
         <Companies/>
         <CompaniesList/>
+        <Customers/>
       </main>
     </>
   )
