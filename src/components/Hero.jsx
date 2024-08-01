@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className='w-11/12 max-w-screen-2xl mx-auto py-20'>
       <div className="container px-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
           <div>
             <p className="text-6xl">
               Great <span className="text-gradient">Product</span> is{' '}

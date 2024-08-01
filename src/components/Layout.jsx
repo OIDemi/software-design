@@ -1,5 +1,7 @@
 import React from 'react'
 import Logo from '../assets/logo.svg'
+import Companies from './Companies'
+import CompaniesList from './CompaniesList'
 import Hero from './Hero'
 import Services from './Services'
 const Layout = () => {
@@ -7,7 +9,7 @@ const Layout = () => {
     <>
       <nav className='  flex items-center justify-between p-4 shadow-lg'>
         <img src={Logo} alt="Brand Logo" />
-        <ul className='flex space-x-6'>
+        <ul className='hidden lg:flex space-x-6 '>
           <li>
             <a href="/">About Us</a>
           </li>
@@ -33,6 +35,8 @@ const Layout = () => {
       <main>
         <Hero/>
         <Services/>
+        <Companies/>
+        <CompaniesList/>
       </main>
     </>
   )
