@@ -4,6 +4,7 @@ import CaseStudies from './CaseStudies'
 import Companies from './Companies'
 import CompaniesList from './CompaniesList'
 import Customers from './Customers'
+import Footer from './Footer'
 import Hero from './Hero'
 import Services from './Services'
 
@@ -42,6 +43,7 @@ const Layout = () => {
         <CompaniesList/>
         <Customers/>
         <CaseStudies/>
+        <Footer/>
       </main>
     </>
   )
