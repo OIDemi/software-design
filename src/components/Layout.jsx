@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../assets/logo.svg'
+import CaseStudies from './CaseStudies'
 import Companies from './Companies'
 import CompaniesList from './CompaniesList'
 import Customers from './Customers'
@@ -40,6 +41,7 @@ const Layout = () => {
         <Companies/>
         <CompaniesList/>
         <Customers/>
+        <CaseStudies/>
       </main>
     </>
   )
